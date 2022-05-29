@@ -544,8 +544,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'sc': {
-                m.reply('Script : https://github.com/AsepKopling/Hisoka-Morou\n\n 🍁 *N o t e :*
-• Jangan lupa kasih star & kasih credit')
+                m.reply('Script : https://github.com/AsepKopling/Hisoka-Morou\n🍁 Jangan lupa kasih star & credit')
             }
             break
             case 'chat': {
