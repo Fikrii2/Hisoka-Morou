@@ -540,7 +540,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c08036b64bb8024e5efb4.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n┏━━━━━━━━━━━━━━⬣
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/e4a1f04996e5630a3c334.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n┏━━━━━━━━━━━━━━⬣
 ┃        〔 SEWA BOT  〕
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ┃⬣ SEWA BOT ⬣
