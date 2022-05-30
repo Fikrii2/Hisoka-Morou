@@ -2854,12 +2854,13 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}waifu
 │⭔ ${prefix}husbu
 │⭔ ${prefix}neko
+│⭔ ${prefix}nhentai
 │⭔ ${prefix}shinobu
 │⭔ ${prefix}waifus (nsfw)
 │⭔ ${prefix}nekos (nsfw)
 │⭔ ${prefix}trap (nsfw)
 │⭔ ${prefix}blowjob (nsfw)
-│
+│⭔ ${prefix}hentai (nsfw)
 └───────⭓
 
 ┌──⭓ *Text Pro Menu*
