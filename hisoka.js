@@ -1186,8 +1186,13 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Group Official Bot🎈',
-                                    url: 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
+                                    displayText: 'Source Code',
+                                    url: 'https://github.com/AsepKopling/Hisoka-Morou'
+                                }
+                            }, {
+                                callButton: {
+                                    displayText: 'Number Phone Owner',
+                                    phoneNumber: '+62 812-3373-8677'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1196,8 +1201,13 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner',
+                                    displayText: 'Contact Owner',
                                     id: 'owner'
+                                }  
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Script',
+                                    id: 'sc'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -1214,19 +1224,29 @@ break
 		for (let yoi of anu) {
 		    await sleep(1500)
 		    let btn = [{
-                                urlButton: {
-                                    displayText: 'Group Bot Official🎈',
-                                    url: 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
+                                urlButton: 
+                                    displayText: 'Source Code',
+                                    url: 'https://github.com/AsepKoplinh/Hisoka-Morou'
+                                }
+                            }, {
+                                callButton: {
+                                    displayText: 'Number Phone Owner',
+                                    phoneNumber: '+62 812-3373-8677'
                                 }
                             }, {
                                 quickReplyButton: {
                                     displayText: 'Status Bot',
                                     id: 'ping'
                                 }
-                            }, { 
+                            }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner',
+                                    displayText: 'Contact Owner',
                                     id: 'owner'
+                                }  
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Script',
+                                    id: 'sc'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
