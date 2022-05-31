@@ -3095,8 +3095,8 @@ let capt = `⭔ Title: ${judul}
                                      }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Sewa Bot',
-                                    id: 'sewabot'
+                                    displayText: 'Setatus Bot',
+                                    id: setatusbot'
                                 }
                             }]
                           
