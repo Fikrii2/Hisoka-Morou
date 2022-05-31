@@ -575,7 +575,7 @@ _Bukan Bot_ *_Wibusoft_*👍🏻
             }
             break
             case 'sc': {
-                m.reply('Script : https://github.com/AsepKopling/Hisoka-Morou\n🍁 Jangan lupa kasih star & credit')
+                m.reply('Script : Ngada Bang:v')
             }
             break
             case 'chat': {
@@ -1225,28 +1225,23 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/AsepKoplinh/Hisoka-Morou'
+                                    displayText: 'Group Bot Official🎈',
+                                    url: 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 812-3373-8677'
+                                    displayText: 'Owner',
+                                    phoneNumber: 'owner '
                                 }
                             }, {
                                 quickReplyButton: {
                                     displayText: 'Status Bot',
                                     id: 'ping'
                                 }
-                            }, {
+                            }, { 
                                 quickReplyButton: {
-                                    displayText: 'Contact Owner',
-                                    id: 'owner'
-                                }  
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Script',
-                                    id: 'sc'
+                                    displayText: 'Menu',
+                                    id: 'menu'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -3095,8 +3090,8 @@ let capt = `⭔ Title: ${judul}
                                      }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Sewa Bot',
-                                    id: sewabot'
+                                    displayText: 'Setatus Bot',
+                                    id: 'ping'
                                 }
                             }]
                           
