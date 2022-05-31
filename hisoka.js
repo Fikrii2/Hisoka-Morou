@@ -1186,13 +1186,8 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/AsepKopling/Hisoka-Morou'
-                                }
-                            }, {
-                                callButton: {
-                                    displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 812-3373-8677'
+                                    displayText: 'Group Official Bot🎈',
+                                    url: 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1201,13 +1196,8 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Contact Owner',
+                                    displayText: 'Owner',
                                     id: 'owner'
-                                }  
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Script',
-                                    id: 'sc'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -1229,19 +1219,14 @@ break
                                     url: 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
                                 }
                             }, {
-                                callButton: {
-                                    displayText: 'Owner',
-                                    phoneNumber: 'owner '
-                                }
-                            }, {
                                 quickReplyButton: {
                                     displayText: 'Status Bot',
                                     id: 'ping'
                                 }
                             }, { 
                                 quickReplyButton: {
-                                    displayText: 'Menu',
-                                    id: 'menu'
+                                    displayText: 'Owner',
+                                    id: 'owner'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
