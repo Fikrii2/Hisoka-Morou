@@ -575,7 +575,7 @@ _Bukan Bot_ *_Wibusoft_*👍🏻
             }
             break
             case 'sc': {
-                m.reply('Script : Ngada Bang:v')
+                m.reply('Script : https://github.com/AsepKopling/Hisoka-Morou')
             }
             break
             case 'chat': {
