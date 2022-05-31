@@ -3084,19 +3084,28 @@ let capt = `⭔ Title: ${judul}
 │
 └───────⭓`
                 let btn = [{
-                                urlButton: {
-                                    displayText: 'Group Bot Official🎈',
-                                    url: 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
+                                displayText: 'Source Code',
+                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                }
+                            }, {
+                                callButton: {
+                                    displayText: 'Number Phone Owner',
+                                    phoneNumber: '+62 882-9202-4190'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner',
-                                    id: 'owner'
-                                     }
+                                    displayText: 'Status Bot',
+                                    id: 'ping'
+                                }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Setatus Bot',
-                                    id: 'ping'
+                                    displayText: 'Contact Owner',
+                                    id: 'owner'
+                                }  
+                            }, {
+                                quickReplyButton: {
+                                    displayText: 'Script',
+                                    id: 'sc'
                                 }
                             }]
                           
