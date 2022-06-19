@@ -2710,6 +2710,11 @@ let capt = `⭔ Title: ${judul}
             hisoka.sendImage(m.chat, res.result[0].thumbnail, capt, m)
             }
             break
+            case 'owner': case 'developer': {
+                let mowner = await hisoka.sendContactArray(m.chat, owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net'), { quoted: m })
+                hisoka.sendText(m.chat, 'Tuh Kontak Ownerku, Maaf Kalo Orangnya Kek Kntl', mowner)
+            }
+            break
             case 'setmenu': {
             if (!isCreator) throw mess.owner
             let setbot = db.data.settings[botNumber]
