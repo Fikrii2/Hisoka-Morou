@@ -2849,8 +2849,17 @@ let capt = `⭔ Title: ${judul}
 ⌕ ${prefix}uniform
 ⌕ ${prefix}maid
 
+✘ *A S U P A N*
+
+⌕ ${prefix}Aeunicetjoaa
+⌕ ${prefix}cecan
+⌕ ${prefix}china
+⌕ ${prefix}thailand
+⌕ ${prefix}kayes
+⌕ ${prefix}natajadeh
 
 ✘ *R A N D O M - N S F W*
+
 ⌕ ${prefix}waifus (nsfw)
 ⌕ ${prefix}nekos (nsfw)
 ⌕ ${prefix}trap (nsfw)
