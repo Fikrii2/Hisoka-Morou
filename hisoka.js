@@ -1602,6 +1602,11 @@ break
                 hisoka.sendMessage(m.chat, { image: { url: result }, caption: '⭔ Media Url : '+result }, { quoted: m })
             }
             break
+            case 'cecan': case 'china': case 'thailand':  case 'kayes': case 'aeunicetjoaa': case 'natajadeh': {
+                m.reply(mess.wait)
+                hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/'+command, {}, 'apikey') }, caption: 'Wangy wangy  🤤 ' + command }, { quoted: m})
+            }
+            break
              case 'waifus': case 'oral': case 'paizuri':  case 'nekos': case 'trap': case 'blowjob': {
                 m.reply(mess.wait)
                 hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/'+command, {}, 'apikey') }, caption: 'Tch Dasar Sagne🤤 ' + command }, { quoted: m})
