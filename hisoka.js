@@ -540,12 +540,19 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'donasi': {
-            hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1873d8b78396c99babe8a.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n┏━━━━━━━━━━━⬣
-┃   〔 DONASI BOT  〕
-┃▰▰▰▰▰▰▰▰▰
-┃⬣ DANA:0812-3373-8677
-┃⬡ GOPAY:0812-3373-8677
-┃▰▰▰▰▰▰▰▰▰` }, { quoted: m })
+            hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/1873d8b78396c99babe8a.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n*─────「 DONATE 」 ───*
+╭═════════════
+║╭── [ DONASI ] ──
+║│➸ _*Dana*_✅ : 
+║│- 081233738677
+║│
+║│➸ _*Gopay*_✅: 
+║│- 081233738677
+║│
+║│➸ _*OWNER*_
+║│- wa.me/6281233738677
+║╰──────────
+╰═════════════` }, { quoted: m })
             }
 break	
 	    case 'sewabot': case 'sewa': case 'buypremium': {
@@ -565,7 +572,7 @@ break
 ┃⬡ FITUR 500+
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ┃⬣〔  SISTEM 〕⬣
-┃⬡ TF - SEND BUKTI - JOIN GRUP
+┃⬡ JOIN GRUP - TF - SEND BUKTI
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ┃⬣〔  GROUP BOT 〕⬣
 ┃⬣〔 https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE 〕⬣
@@ -1199,13 +1206,13 @@ break
                     await sleep(1500)
                     let btn = [{
                                 quickReplyButton: {
-                                    displayText: '𝙊𝙬𝙣𝙚𝙧',
+                                    displayText: '𝐎𝐰𝐧𝐞𝐫',
                                     id: 'owner'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: '𝙎𝙩𝙖𝙩𝙪𝙨 𝘽𝙤𝙩',
-                                    id: 'ping'
+                                    displayText: '𝐒𝐞𝐰𝐚𝐁𝐨𝐭',
+                                    id: 'sewabot'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -1228,8 +1235,8 @@ break
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: '𝙎𝙩𝙖𝙩𝙪𝙨 𝘽𝙤𝙩',
-                                    id: 'ping'
+                                    displayText: '𝐒𝐞𝐰𝐚𝐁𝐨𝐭',
+                                    id: 'sewabot'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -1600,11 +1607,6 @@ break
                 anu = await pinterest(text)
                 result = anu[Math.floor(Math.random() * anu.length)]
                 hisoka.sendMessage(m.chat, { image: { url: result }, caption: '⭔ Media Url : '+result }, { quoted: m })
-            }
-            break
-            case 'cecan': case 'china': case 'thailand':  case 'kayes': case 'aeunicetjoaa': case 'natajadeh': {
-                m.reply(mess.wait)
-                hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/'+command, {}, 'apikey') }, caption: 'Wangy wangy  🤤 ' + command }, { quoted: m})
             }
             break
              case 'waifus': case 'oral': case 'paizuri':  case 'nekos': case 'trap': case 'blowjob': {
@@ -2797,7 +2799,6 @@ let capt = `⭔ Title: ${judul}
 ⌕ ${prefix}cekvote
 ⌕ ${prefix}hapusvote
 
-
 ✘ *D O W N L O A D E R*
 
 ⌕ ${prefix}tiktoknowm [url]
@@ -2815,7 +2816,6 @@ let capt = `⭔ Title: ${judul}
 ⌕ ${prefix}umma [url]
 ⌕ ${prefix}joox [query]
 ⌕ ${prefix}soundcloud [url]
-
 
 ✘ *S E A R C H - F E A T U R E*
 
@@ -2849,15 +2849,6 @@ let capt = `⭔ Title: ${judul}
 ⌕ ${prefix}uniform
 ⌕ ${prefix}maid
 
-✘ *A S U P A N*
-
-⌕ ${prefix}Aeunicetjoaa
-⌕ ${prefix}cecan
-⌕ ${prefix}china
-⌕ ${prefix}thailand
-⌕ ${prefix}kayes
-⌕ ${prefix}natajadeh
-
 ✘ *R A N D O M - N S F W*
 
 ⌕ ${prefix}waifus (nsfw)
@@ -2867,7 +2858,6 @@ let capt = `⭔ Title: ${judul}
 ⌕ ${prefix}hentai (nsfw)
 ⌕ ${prefix}ass (nsfw)
 ⌕ ${prefix}paizuri (nsfw)
-
 
 ✘ *T E X T - P R O*
 
@@ -2998,7 +2988,6 @@ let capt = `⭔ Title: ${judul}
 ⌕ ${prefix}dbinary
 ⌕ ${prefix}styletext
 ⌕ ${prefix}smeme
-
 
 ✘ *M A I N - M E N U*
 
