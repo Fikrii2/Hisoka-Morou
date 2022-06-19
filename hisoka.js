@@ -2763,9 +2763,7 @@ let capt = `⭔ Title: ${judul}
 
 ✘ *I N F O - B O T*
 
-⌕ *Owner Name:* _${global.ownername}_
 ⌕ *Runtime:* _${runtime(process.uptime())}_
-⌕ *Gc Bot:* _${global.gc}_
 ⌕ *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
 ⌕ *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_             
 ⌕ *Library:* _Baileys-Md_
