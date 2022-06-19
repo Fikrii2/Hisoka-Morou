@@ -2761,9 +2761,6 @@ let capt = `⭔ Title: ${judul}
            case 'menu': case 'help': {
                 anu = `Hai kak ${pushname}, have a nice day:)
 
-Saya adalah ${botname}, yang memudahakan anda
-untuk membuat stiker dan lain lain
-
 ✘ *I N F O - B O T*
 
 ⌕ *Owner Name:* _${global.ownername}_
