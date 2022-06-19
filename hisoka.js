@@ -2766,7 +2766,6 @@ untuk membuat stiker dan lain lain
 
 ✘ *I N F O - B O T*
 
-⌕ *Bot Name:* _${global.botname}_
 ⌕ *Owner Name:* _${global.ownername}_
 ⌕ *Runtime:* _${runtime(process.uptime())}_
 ⌕ *Gc Bot:* _${global.gc}_
