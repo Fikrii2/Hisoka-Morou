@@ -3081,8 +3081,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}bcall [text]
 ⭔ ${prefix}setppbot [image]
 ⭔ ${prefix}setexif
-⭔ ${prefix}setmenu [option]
-`
+⭔ ${prefix}setmenu [option]`
                 let btn = [{
                                 urlButton: {
                                     displayText: '𝙶𝚛𝚘𝚞𝚙 𝙱𝚘𝚝',
