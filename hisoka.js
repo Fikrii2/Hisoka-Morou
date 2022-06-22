@@ -2869,11 +2869,6 @@ let capt = `⭔ Title: ${judul}
 │
 │⭔ ${prefix}coffe
 │⭔ ${prefix}quotesanime
-│⭔ ${prefix}motivasi
-│⭔ ${prefix}dilanquote
-│⭔ ${prefix}bucinquote
-│⭔ ${prefix}katasenja
-│⭔ ${prefix}puisi
 │⭔ ${prefix}couple
 │⭔ ${prefix}anime
 │⭔ ${prefix}waifu
@@ -2889,6 +2884,7 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}paizuri (nsfw)
 │⭔ ${prefix}ecchi (nsfw)
 │⭔ ${prefix}ero (nsfw)
+│
 └───────⭓
 
 ┌──⭓ *Text Pro Menu*
