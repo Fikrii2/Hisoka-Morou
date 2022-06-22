@@ -542,11 +542,11 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'donasi':  case 'donate': {
-            	hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/3fe27168b0787447a32b9.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Donasi Biar Bot Nya On Terus\nDana: 0812-3373-8677\nGopay: 0812-3373-8677`}, { quotes: m})
+            	hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/3fe27168b0787447a32b9.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\nDonasi Biar Bot Nya On Terus\nDana: 0812-3373-8677\nGopay: 0812-3373-8677`}, { quotes: m})
             }
             break
 	       case 'sewabot': case 'sewa': case 'buypremium': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/d153eec340c94446f3389.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Sewa Bot\n⭔ 10k Per Group\n\n Premium Price Bot\n⭔ 10k per User 1 bulan\n\nPayment DANA/GOPAY\n\nJika Minat Hubungi\nhttps://wa.me/6381233738677 (Owner)` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/d153eec340c94446f3389.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Sewa Bot\n⭔ 10k Per Group 1 Bulan\n\n Premium Price Bot\n⭔ 10k per User 1 bulan\n\nPayment DANA/GOPAY\n\nJika Minat Hubungi\nhttps://wa.me/6281233738677 (Owner)` }, { quoted: m })
             }
             break
             case 'sc': {
