@@ -3118,36 +3118,38 @@ let capt = `⭔ Title: ${judul}
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
-                                }
-                            }, {
-                                callButton: {
-                                    displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 812-3373-8677'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Status Bot',
-                                    id: 'ping'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Contact Owner',
-                                    id: 'owner'
-                                }
-                            }]
+                                    displayText: '𝙶𝚛𝚘𝚞𝚙 𝙱𝚘𝚝',
+                                    url: 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "𝐒𝐭𝐚𝐭𝐮𝐬 𝐁𝐨𝐭",
+"id": 'ping'
+            }
+          },
+         {
+         	 "quickReplyButton": {
+              "displayText": "𝘿𝙤𝙣𝙖𝙨𝙞",
+"id": 'donasi'
+            }
+          },
+         {
+            "quickReplyButton": {
+              "displayText": "𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫",
+"id": 'owner'
+            }
+          }
+        ]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
+                        hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
                         } else if (setbot.templateGif) {
-                        hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn, global.thumb)
+                        hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
                         } else if (setbot.templateVid) {
-                        hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn, global.thumb)
+                        hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
                         } else if (setbot.templateMsg) {
                         hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
-                        } else if (setbot.templateLocation) {
-                        hisoka.send5ButLoc(m.chat, anu, hisoka.user.name, global.thumb, btn)
                         }
                      }
             break
