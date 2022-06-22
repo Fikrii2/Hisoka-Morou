@@ -2786,7 +2786,7 @@ let capt = `⭔ Title: ${judul}
             }
             break
             case 'list': case 'menu': case 'help': case '?': {
-                anu = ` .┌──⭓ *INFO BOT*
+                anu = `┌──⭓ *INFO BOT*
 │Hai kak ${pushname}
 │⭔ *Runtime:* _${runtime(process.uptime())_
 │⭔ *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
