@@ -2788,7 +2788,6 @@ let capt = `⭔ Title: ${judul}
             case 'list': case 'menu': case 'help': case '?': {
                 anu = `┌──⭓ *INFO BOT*
 │⭔ Hai kak ${pushname}
-│⭔ *Runtime:* _${runtime(process.uptime())_
 │⭔ *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
 │⭔ *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_             
 │⭔ *Library:* _Baileys-Md_
