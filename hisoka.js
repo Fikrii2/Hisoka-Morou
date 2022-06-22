@@ -2790,7 +2790,15 @@ let capt = `⭔ Title: ${judul}
             }
             break
             case 'list': case 'menu': case 'help': case '?': {
-                anu = `┌──⭓ *Group Menu*
+                anu = `┌──⭓ *I N F O - B O T*
+│⭔ *Hai kak ${pushname}*
+│⭔ *Runtime:* _${runtime(process.uptime())}_
+│⭔ *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
+│⭔ *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_             
+│⭔ *Library:* _Baileys-Md_
+└───────⭓
+
+┌──⭓ *Group Menu*
 │
 │⭔ ${prefix}linkgroup
 │⭔ ${prefix}ephemeral [option]
@@ -2828,7 +2836,6 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}drakor
 │
 └───────⭓
-
 
 ┌──⭓ *Downloader Menu*
 │
