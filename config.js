@@ -24,7 +24,7 @@ global.packname = '𝑴𝒊𝒌𝒖'
 global.author = 'WhatsApp Bot'
 global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
-global.sp = '⌕'
+global.sp = '⭔'
 global.mess = {
     success: '✓ Success',
     admin: 'Fitur Khusus Admin Group!',
