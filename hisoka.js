@@ -1629,7 +1629,7 @@ break
                 hisoka.sendMessage(m.chat, { image: { url: result }, caption: '⭔ Media Url : '+result }, { quoted: m })
             }
             break
-            case 'anime': case 'waifu': case 'megumin': case 'marinKitagawa': case 'moricalliope': case 'husbu': case 'neko': case 'shinobu': case 'megumin': case 'waifus': case 'nekos': case 'trap': case 'ero': case 'ecchi': case 'blowjob': {
+            case 'anime': case 'waifu': case 'megumin': case 'husbu': case 'neko': case 'megumin': case 'waifus': case 'nekos': case 'trap': case 'ero': case 'ecchi': case 'paizuri': case 'oral': case 'hentai': case 'blowjob': {
                 m.reply(mess.wait)
                 hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/randomanime/'+command, {}, 'apikey') }, caption: 'Generate Random ' + command }, { quoted: m })
             }
@@ -2884,7 +2884,11 @@ let capt = `⭔ Title: ${judul}
 │⭔ ${prefix}nekos (nsfw)
 │⭔ ${prefix}trap (nsfw)
 │⭔ ${prefix}blowjob (nsfw)
-│
+│⭔ ${prefix}hentai (nsfw)
+│⭔ ${prefix}oral (nsfw)
+│⭔ ${prefix}paizuri (nsfw)
+│⭔ ${prefix}ecchi (nsfw)
+│⭔ ${prefix}ero (nsfw)
 └───────⭓
 
 ┌──⭓ *Text Pro Menu*
