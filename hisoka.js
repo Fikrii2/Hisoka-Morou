@@ -1630,6 +1630,11 @@ break
                 hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/'+command, {}, 'apikey') }, caption: 'Generate Random ' + command }, { quoted: m })
             }
             break
+            case 'aeunicetjoaa': {
+                 m.reply(mess.wait)
+                 hisoka.sendMessage(m.chat, {vidio: {url: api('zenz', '/randomasupan/'+command, {}, 'apikey') }, caption: 'Nih Kak ' + command }, { quoted: m})
+           }
+            break
 	    case 'couple': {
                 m.reply(mess.wait)
                 let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
