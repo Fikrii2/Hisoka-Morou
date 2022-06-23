@@ -1631,7 +1631,6 @@ break
             }
             break
 	    case 'couple': {
-            case 'ppcp': {
                 m.reply(mess.wait)
                 let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
                 let random = anu[Math.floor(Math.random() * anu.length)]
