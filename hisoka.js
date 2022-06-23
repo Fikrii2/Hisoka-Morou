@@ -1630,13 +1630,6 @@ break
                 hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/'+command, {}, 'apikey') }, caption: 'Generate Random ' + command }, { quoted: m })
             }
             break
-            case 'asupan': case 'aeunicetjoaa': case 'natajadeh': case 'asupantiktok': {
-                if (user.isLimit(m.sender, isPremium, isOwner, config.options.limitCount, _user) && !m.fromMe) return global.mess("isLimit", m)
-                let fetch = await global.api("zenz", "/randomasupan/" + command, {}, "apikey")
-                hisoka.sendFile(m.from, fetch, "", m, { caption: "Random TikTok Asupan" })
-                user.limitAdd(m.sender, isPremium, isOwner, _user)
-            }
-            break
 	    case 'couple': {
                 m.reply(mess.wait)
                 let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
