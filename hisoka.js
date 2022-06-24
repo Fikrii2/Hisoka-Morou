@@ -2787,11 +2787,11 @@ let capt = `⭔ Title: ${judul}
             break
             case 'list': case 'menu': case 'help': case '?': {
                 anu = `┌──⭓ *INFO BOT*
-│⭔ Hai kak ${pushname}
-│⭔ *Runtime:* _${runtime(process.uptime())}_
-│⭔ *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
-│⭔ *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_             
-│⭔ *Library:* _Baileys-Md_
+│ 𝑯𝒂𝒊 𝑲𝒂𝒌 *${pushname}*
+│ 𝑹𝒖𝒏𝒕𝒊𝒎𝒆: _${runtime(process.uptime())}_
+│ 𝑻𝒂𝒏𝒈𝒈𝒂𝒍: _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
+│ 𝑾𝒂𝒌𝒕𝒖: _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_             
+│ 𝑳𝒊𝒃𝒓𝒂𝒓𝒚: _Baileys-Md_
 └───────⭓
 
 ✘ *Group Menu*
