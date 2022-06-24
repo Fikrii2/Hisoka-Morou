@@ -546,10 +546,11 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'sc': {
-                m.reply('
-│ *Script :* DikaArdnt
+                m.reply('╭═[ *SCRIPT* ]═────···
+┴
+│ 𝐒𝐜𝐫𝐢𝐩𝐭 : DikaArdnt
 │ ╰ https://github.com/DikaArdnt/Hisoka-Morou
-│ *Recode :* Fikrii
+│ 𝐑𝐞𝐜𝐨𝐝𝐞 : Fikrii
 │ ╰🔒 Private
 ┬
 ╰──────────═┅═──────────
