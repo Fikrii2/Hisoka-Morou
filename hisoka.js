@@ -2870,11 +2870,6 @@ let capt = `⭔ Title: ${judul}
 
 ⭔ ${prefix}coffe
 ⭔ ${prefix}quotesanime
-⭔ ${prefix}motivasi
-⭔ ${prefix}dilanquote
-⭔ ${prefix}bucinquote
-⭔ ${prefix}katasenja
-⭔ ${prefix}puisi
 ⭔ ${prefix}couple
 ⭔ ${prefix}anime
 ⭔ ${prefix}waifu
