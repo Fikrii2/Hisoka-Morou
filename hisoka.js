@@ -542,7 +542,11 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'donasi': {
-                m.reply('Dana: 0812-3373-8677\n\nGopay: 0812-3373-8677')
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/ebf0dbc68466885678e4a.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Donasi ┌─「 Donasi  」
+│ • *Ovo:* 0812-3373-8677
+│ • *Gopay:* 0812-3373-8677
+│ • *Dana:* 0812-3373-8677
+❏────` }, { quoted: m })
              }
             break
 	    case 'sewabot': case 'sewa': case 'buypremium': {
