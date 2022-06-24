@@ -546,7 +546,14 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'sc': {
-                m.reply('Script : https://github.com/DikaArdnt/Hisoka-Morou')
+                m.reply('
+│ *Script :* DikaArdnt
+│ ╰ https://github.com/DikaArdnt/Hisoka-Morou
+│ *Recode :* Fikrii
+│ ╰🔒 Private
+┬
+╰──────────═┅═──────────
+[❗] Jangan diperjual belikan tanpa seizin owner')
             }
             break
             case 'chat': {
