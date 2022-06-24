@@ -1627,7 +1627,7 @@ break
             break
             case 'anime': case 'waifu': case 'husbu': case 'neko': case 'shinobu': case 'megumin': case 'waifus': case 'nekos': case 'trap': case 'hentai': case 'oral': case 'paizuri': case 'ecchi': case 'ero': case 'blowjob': {
                 m.reply(mess.wait)
-                hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/randomanime/'+command, {}, 'apikey') }, caption: 'Generate Random ' + command }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/randomanime/'+command, {}, 'apikey') }, caption: 'Nih' }, { quoted: m })
             }
             break
 	    case 'couple': {
