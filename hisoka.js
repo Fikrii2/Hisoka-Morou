@@ -542,7 +542,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74fd634010128be37972c.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via E-Walet 1 Month\n⭔ 18k via pulsa 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6288292024190 (Owner)\n\nDonate For Me : \n\n⭔ Paypal : https://www.paypal.me/Cakhaho\n⭔ Saweria : https://saweria.co/DikaArdnt` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/632755bba48425088c4e9.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Sewa Bot\n⭔ 10k Per Group 1 Bulan\n⭔ Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment Dana/Gopay\n\nMinat Untuk Sewa Bot Hubungi owner\nhttps://wa.me/6381233738677 (Owner)` }, { quoted: m })
             }
             break
             case 'sc': {
@@ -2794,7 +2794,7 @@ let capt = `⭔ Title: ${judul}
 │ 𝑳𝒊𝒃𝒓𝒂𝒓𝒚: _Baileys-Md_
 └───────⭓
 
-✘ *Group Menu*
+✘ 𝑮𝒓𝒐𝒖𝒑 𝑴𝒆𝒏𝒖
 
 ⭔ ${prefix}linkgroup
 ⭔ ${prefix}ephemeral [option]
@@ -2817,7 +2817,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}cekvote
 ⭔ ${prefix}hapusvote
 
-✘ *Webzone Menu*
+✘ 𝐖𝐞𝐛𝐳𝐨𝐧𝐞 𝐌𝐞𝐧𝐮
 
 ⭔ ${prefix}playstore
 ⭔ ${prefix}gsmarena
@@ -2828,7 +2828,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}webtoons
 ⭔ ${prefix}drakor
 
-✘ *Downloader Menu*
+✘ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐌𝐞𝐧𝐮
 
 ⭔ ${prefix}tiktoknowm [url]
 ⭔ ${prefix}tiktokwm [url]
@@ -2846,7 +2846,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}joox [query]
 ⭔ ${prefix}soundcloud [url]
 
-✘ *Search Menu*
+✘ 𝐒𝐞𝐚𝐫𝐜𝐡 𝐌𝐞𝐧𝐮
 
 ⭔ ${prefix}play [query]
 ⭔ ${prefix}yts [query]
@@ -2859,7 +2859,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}ringtone [query]
 ⭔ ${prefix}stalk [option] [query]
 
-✘ *Random Menu*
+✘ 𝑹𝒂𝒏𝒅𝒐𝒎 𝑴𝒆𝒏𝒖
 
 ⭔ ${prefix}coffe
 ⭔ ${prefix}quotesanime
@@ -2884,7 +2884,7 @@ let capt = `⭔ Title: ${judul}
 ⭔${prefix}ecchi (nsfw)
 ⭔${prefix}ero (nsfw)
 
-✘ *Text Pro Menu*
+✘ 𝑻𝒆𝒙𝒕 𝑷𝒓𝒐 𝑴𝒆𝒏𝒖
 
 ⭔ ${prefix}3dchristmas
 ⭔ ${prefix}3ddeepsea
@@ -2918,7 +2918,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}blackpink
 ⭔ ${prefix}gluetext
 
-✘ *Photo Oxy Menu*
+✘ 𝑷𝒉𝒐𝒕𝒐 𝑶𝒙𝒚 𝑴𝒆𝒏𝒖
 
 ⭔ ${prefix}shadow
 ⭔ ${prefix}romantic
@@ -2933,7 +2933,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}harrypotter
 ⭔ ${prefix}retrolol
 
-✘ *Ephoto Menu*
+✘ 𝐄𝐩𝐡𝐨𝐭𝐨 𝐌𝐞𝐧𝐮
 
 ⭔ ${prefix}ffcover
 ⭔ ${prefix}crossfire
@@ -2945,7 +2945,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}igcertificate
 ⭔ ${prefix}ytcertificate
 
-✘ *Fun Menu*
+✘ 𝐅𝐮𝐧 𝐌𝐞𝐧𝐮
 
 ⭔ ${prefix}simih
 ⭔ ${prefix}halah
@@ -2962,7 +2962,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}math [mode]
 ⭔ ${prefix}suitpvp [@tag]
 
-✘ *Primbon Menu*
+✘ 𝐏𝐫𝐢𝐦𝐛𝐨𝐧 𝐌𝐞𝐧𝐮
 
 ⭔ ${prefix}nomorhoki
 ⭔ ${prefix}artimimpi
@@ -2995,7 +2995,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}zodiak
 ⭔ ${prefix}shio
 
-✘ *Convert Menu*
+✘ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭 𝐌𝐞𝐧𝐮
 
 ⭔ ${prefix}attp
 ⭔ ${prefix}ttp
@@ -3016,7 +3016,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}styletext
 ⭔ ${prefix}smeme
 
-✘ *Main Menu*
+✘ 𝐌𝐚𝐢𝐧 𝐌𝐞𝐧𝐮
 
 ⭔ ${prefix}ping
 ⭔ ${prefix}owner
@@ -3029,7 +3029,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}listonline
 ⭔ ${prefix}speedtest
 
-✘ *Database Menu*
+✘ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐌𝐞𝐧𝐮
 
 ⭔ ${prefix}setcmd
 ⭔ ${prefix}listcmd
@@ -3040,14 +3040,14 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}getmsg
 ⭔ ${prefix}delmsg
 
-✘ *Anonymous Menu*
+✘ 𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬 𝐌𝐞𝐧𝐮
 
 ⭔ ${prefix}anonymous
 ⭔ ${prefix}start
 ⭔ ${prefix}next
 ⭔ ${prefix}keluar
 
-✘ *Islamic Menu*
+✘ 𝐈𝐬𝐥𝐚𝐦𝐢𝐜 𝐌𝐞𝐧𝐮
 
 ⭔ ${prefix}iqra
 ⭔ ${prefix}hadist
@@ -3055,7 +3055,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}juzamma
 ⭔ ${prefix}tafsirsurah
 
-✘ *Voice Changer*
+✘ 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐧𝐠𝐞𝐫
 
 ⭔ ${prefix}bass
 ⭔ ${prefix}blown
@@ -3069,7 +3069,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}slow
 ⭔ ${prefix}tupai
 
-✘ *Owner Menu*
+✘ 𝐎𝐰𝐧𝐞𝐫 𝐌𝐞𝐧𝐮
 
 ⭔ ${prefix}react [emoji]
 ⭔ ${prefix}chat [option]
