@@ -541,7 +541,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             }
             break
-            case 'donasi': case 'donate: {
+            case 'donasi': {
                 m.reply('Dana: 0812-3373-8677\n\nGopay: 0812-3373-8677')
              }
             break
