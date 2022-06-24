@@ -541,12 +541,16 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             }
             break
-	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/632755bba48425088c4e9.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Sewa Bot\n⭔ 10k Per Group 1 Bulan\n⭔ Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment Dana/Gopay\n\nMinat Untuk Sewa Bot Hubungi owner\nhttps://wa.me/6381233738677 (Owner)` }, { quoted: m })
+            case 'donasi': case 'donate: {
+                m.reply('Dana: 0812-3373-8677\n\nGopay: 0812-3373-8677')
+             }
+            break
+	    case 'sewabot': case 'sewa': case 'buypremium': {
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/632755bba48425088c4e9.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Sewa Bot\n⭔ 10k Per Group 1 Bulan\n⭔ Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment Dana/Gopay\n\nMinat Untuk Sewa Bot Hubungi owner\nhttps://wa.me/6281233738677 (Owner)` }, { quoted: m })
             }
             break
             case 'sc': {
-                m.reply('Script : https://github.com/DikaArdnt/Hisoka-Morou\n\n Dont Forget Give Star\n\nDonate : 6281615075793 (Link Aja)\nSaweria : https://saweria.co/DikaArdnt\nPaypal : https://www.paypal.me/Cakhaho\n\n Dont Forget Donate')
+                m.reply('Script : https://github.com/DikaArdnt/Hisoka-Morou')
             }
             break
             case 'chat': {
