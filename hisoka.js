@@ -1636,7 +1636,7 @@ break
                 hisoka.sendMessage(m.chat, { image: { url: result }, caption: '⭔ Media Url : '+result }, { quoted: m })
             }
             break
-            case 'cecan': {
+            case 'cecan': case 'wallhp': case 'cogan': case 'aesthetic': case 'darkjokes': {
                 m.reply(mess.wait)
                 hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/randomimage/'+command, {}, 'apikey') }, caption: 'Nih' }, { quoted: m })
             }
@@ -2883,6 +2883,10 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}dilanquote
 ⭔ ${prefix}bucinquote
 ⭔ ${prefix}katasenja
+⭔ ${prefix}aesthetic
+⭔ ${prefix}wallhp
+⭔ ${prefix}cecan 
+⭔ ${prefix}darkjokes
 ⭔ ${prefix}puisi
 ⭔ ${prefix}couple
 ⭔ ${prefix}anime
