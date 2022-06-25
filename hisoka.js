@@ -2887,6 +2887,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}aesthetic
 ⭔ ${prefix}wallhp
 ⭔ ${prefix}cecan 
+⭔ ${prefix}cogan
 ⭔ ${prefix}puisi
 ⭔ ${prefix}couple
 ⭔ ${prefix}anime
