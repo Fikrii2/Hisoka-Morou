@@ -1636,6 +1636,11 @@ break
                 hisoka.sendMessage(m.chat, { image: { url: result }, caption: '⭔ Media Url : '+result }, { quoted: m })
             }
             break
+            case 'cecan': {
+                m.reply(mess.wait)
+                hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/randomimage/'+command, {}, 'apikey') }, caption: 'Nih' }, { quoted: m })
+            }
+            break
             case 'anime': case 'waifu': case 'husbu': case 'neko': case 'shinobu': case 'megumin': case 'waifus': case 'nekos': case 'trap': case 'hentai': case 'oral': case 'paizuri': case 'ecchi': case 'ero': case 'blowjob': {
                 m.reply(mess.wait)
                 hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/randomanime/'+command, {}, 'apikey') }, caption: 'Nih' }, { quoted: m })
