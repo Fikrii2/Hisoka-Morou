@@ -2786,11 +2786,8 @@ let capt = `⭔ Title: ${judul}
             }
             break
             case 'list': case 'menu': case 'help': case '?': {
-                anu = `buffer = await getBuffer(`https://telegra.ph/file/5b7dfa74a98f61347570e.jpg`)
-                no = 1
-                anu = `Hai kak ${pushname}
-┌──⭓ *INFO BOT*
-│ 
+              anu = `┌──⭓ *INFO BOT*
+│ 𝐇𝐚𝐢 𝐊𝐚𝐤 ${pushname}
 │ 𝑹𝒖𝒏𝒕𝒊𝒎𝒆: _${runtime(process.uptime())}_
 │ 𝑻𝒂𝒏𝒈𝒈𝒂𝒍: _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
 │ 𝑾𝒂𝒌𝒕𝒖: _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_             
