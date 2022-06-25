@@ -1636,7 +1636,7 @@ break
                 hisoka.sendMessage(m.chat, { image: { url: result }, caption: '⭔ Media Url : '+result }, { quoted: m })
             }
             break
-            case 'cecan': case 'wallhp': case 'cogan': case 'aesthetic': {
+            case 'cecan': case 'wallhp': case 'cosplay': case 'cogan': case 'aesthetic': {
                 m.reply(mess.wait)
                 hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/randomimage/'+command, {}, 'apikey') }, caption: 'Nih' }, { quoted: m })
             }
@@ -2882,6 +2882,7 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}motivasi
 ⭔ ${prefix}dilanquote
 ⭔ ${prefix}bucinquote
+⭔ ${prefix}cosplay
 ⭔ ${prefix}katasenja
 ⭔ ${prefix}aesthetic
 ⭔ ${prefix}wallhp
@@ -2898,10 +2899,10 @@ let capt = `⭔ Title: ${judul}
 ⭔ ${prefix}trap (nsfw)
 ⭔ ${prefix}blowjob (nsfw)
 ⭔ ${prefix}hentai (nsfw)
-⭔${prefix}oral (nsfw)
+⭔ ${prefix}oral (nsfw)
 ⭔ ${prefix}paizuri (nsfw)
-⭔${prefix}ecchi (nsfw)
-⭔${prefix}ero (nsfw)
+⭔ ${prefix}ecchi (nsfw)
+⭔ ${prefix}ero (nsfw)
 
 ✘ 𝑻𝒆𝒙𝒕 𝑷𝒓𝒐 𝑴𝒆𝒏𝒖
 
