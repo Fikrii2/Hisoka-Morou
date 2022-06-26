@@ -21,6 +21,96 @@ const { Primbon } = require('scrape-primbon')
 const primbon = new Primbon()
 const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom, getGroupAdmins } = require('./lib/myfunc')
 
+//function rpg
+   const { 
+     addInventoriDarah, 
+      cekDuluJoinAdaApaKagaDiJson, 
+      addDarah, 
+      kurangDarah, 
+     getDarah 
+   }  = require('./storage/user/darah.js')
+   const { 
+     cekInventoryAdaAtauGak, 
+      addInventori,  
+       addBesi, 
+       addEmas, 
+       addEmerald,
+       addUmpan,
+       addPotion,
+       kurangBesi, 
+       kurangEmas, 
+       kurangEmerald, 
+       kurangUmpan,
+       kurangPotion,
+       getBesi, 
+      getEmas, 
+     getEmerald,
+     getUmpan,
+    getPotion
+   } = require('./storage/user/alat_tukar.js')
+   const { 
+    addInventoriMonay, 
+    cekDuluJoinAdaApaKagaMonaynyaDiJson, 
+    addMonay, 
+    kurangMonay, 
+   getMonay 
+   } = require('./storage/user/monay.js')
+   const { 
+    addInventoriLimit, 
+    cekDuluJoinAdaApaKagaLimitnyaDiJson, 
+    addLimit, 
+    kurangLimit, 
+    getLimit 
+   } = require('./storage/user/limit.js')
+   const { 
+    cekDuluHasilBuruanNya, 
+     addInventoriBuruan, 
+     addIkan,
+      addAyam, 
+      addKelinci, 
+      addDomba, 
+      addSapi,
+      addGajah,
+      kurangIkan,
+      kurangAyam, 
+      kurangKelinci, 
+      kurangDomba, 
+      kurangSapi,
+      kurangGajah,
+      getIkan,
+      getAyam, 
+      getKelinci, 
+      getDomba,
+     getSapi,
+    getGajah
+   } = require('./storage/user/buruan.js')
+   let DarahAwal =  global.rpg.darahawal
+   const isDarah = cekDuluJoinAdaApaKagaDiJson(m.sender)   
+   const isCekDarah = getDarah(m.sender)
+   const isUmpan = getUmpan(m.sender)
+   const isPotion = getPotion(m.sender)
+   const isIkan = getIkan(m.sender)
+   const isAyam = getAyam(m.sender)
+   const isKelinci = getKelinci(m.sender)
+   const isDomba = getDomba(m.sender)
+   const isSapi = getSapi(m.sender)
+   const isGajah = getGajah(m.sender)
+   const isMonay = getMonay(m.sender)
+   const isLimit = getLimit(m.sender)
+   const isBesi = getBesi(m.sender)
+   const isEmas = getEmas(m.sender)
+   const isEmerald = getEmerald(m.sender)
+   const isInventory = cekInventoryAdaAtauGak(m.sender)
+   const isInventoriBuruan = cekDuluHasilBuruanNya(m.sender)
+   const isInventoryLimit = cekDuluJoinAdaApaKagaLimitnyaDiJson(m.sender)
+   const isInventoryMonay = cekDuluJoinAdaApaKagaMonaynyaDiJson(m.sender)
+   const ikan = ['🐟','🐠','🐡']   
+
+// Database Rpg
+ let _limit = JSON.parse(fs.readFileSync('./storage/user/limit.json'));
+ let _buruan = JSON.parse(fs.readFileSync('./storage/user/hasil_buruan.json'));
+ let _darahOrg = JSON.parse(fs.readFileSync('./storage/user/darah.json'))
+
 // read database
 let tebaklagu = db.data.game.tebaklagu = []
 let _family100 = db.data.game.family100 = []
