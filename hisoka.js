@@ -1466,7 +1466,84 @@ break
                 await fs.unlinkSync(media)
             }
             break
-	        case 'tourl': {
+
+	case 'berburu':{
+if (q.includes('--help')) return m.reply(examkosong) 
+ //Peringatan!!!!, ini buatan rifza. jangan claim punya lu:)
+ if (!isDarah){ addInventoriDarah(m.sender, DarahAwal) }
+ if (isCekDarah < 1) return m.reply('Darah kamu habis, cobalah heal menggunakan potion') 
+ if (!isInventoriBuruan){ addInventoriBuruan(m.sender) } 
+  let luka = ["Tertusuk duri saat berburu","Terpeleset ke jurang saat berburu","Tercakar hewan buas","Tidak berhati-hati","Terjerat akar","Terjatuh saat berburu"]
+  let location = ["Hutan rimba","Hutan Amazon","Hutan tropis","Padang rumput","Hutan afrika","Pegunungan"]
+   var ikanmu = Math.ceil(Math.random() * 10)
+   var ayam = Math.ceil(Math.random() * 8)
+   var kelinci = Math.ceil(Math.random() * 7)
+   var dombanya = [3,0,4,0,5,4,6,0,1,0,2,3,0,3,0,1]
+   var sapinya = [2,0,3,0,4,0,5,0,1,0,2,0,3,0,1]
+   var gajahnya = [1,0,4,0,2,0,1,0,2,1,3,0,1]
+   var domba = dombanya[Math.floor(Math.random() * dombanya.length)] 
+   var sapi = sapinya[Math.floor(Math.random() * sapinya.length)] 
+   var gajah = gajahnya[Math.floor(Math.random() * gajahnya.length)]    
+   var lukanya = luka[Math.floor(Math.random() * luka.length)]
+   var lokasinya = location[Math.floor(Math.random() * location.length)]
+ if (lokasinya === 'Hutan rimba') {
+    var image = './storage/image/rimba.jpg'
+   } else
+ if (lokasinya === 'Hutan Amazon') {
+    var image =  './storage/image/amazon.jpg'
+   } else
+ if (lokasinya === 'Hutan tropis') {
+    var image = './storage/image/tropis.jpg'
+   } else
+ if (lokasinya === 'Padang rumput') {
+    var image = './storage/image/padang_rumput.jpg'
+   } else
+ if (lokasinya === 'Hutan afrika') {
+    var image = './storage/image/afrika.jpg'
+   } else
+ if (lokasinya === 'Pegunungan') {
+   var image = './storage/image/pegunungan.jpg'
+   }
+ setTimeout( () => {
+  let teksehmazeh = `_[ HASIL BURUAN ]_\n`
+     teksehmazeh += `*🐟Ikan* : ${ikanmu}\n`
+     teksehmazeh += `*🐔Ayam* : ${ayam}\n`
+     teksehmazeh += `*🐇Kelinci* : ${kelinci}\n`
+     teksehmazeh += `*🐑Domba* : ${domba}\n`
+     teksehmazeh += `*🐄Sapi* : ${sapi}\n`
+     teksehmazeh += `*🐘Gajah* : ${gajah}\n\n`
+     teksehmazeh += `_[ INFO ]_\n`
+     teksehmazeh += `*Lokasi* : ${lokasinya}\n`
+     teksehmazeh += `*Terluka* : ${lukanya}, darah - 10\n`
+     teksehmazeh += `*Sisa darah* : ${getDarah(m.sender)}\n`
+    let buttons = [
+      {
+       buttonId: `${prefix + command}`, 
+       buttonText: {
+        displayText: 'Berburu lagi️🏹'
+      }, type: 1},
+    ]
+    let buttonMessage = {
+      image: { url: image },
+      caption: teksehmazeh,
+      footer: pushname,
+      buttons: buttons,
+      headerType: 4
+     }
+     hisoka.sendMessage(from, buttonMessage, { quoted: m })      
+  }, 5000)  
+ setTimeout( () => {
+  m.reply(`@${m.sender.split("@")[0]} Mulai berburu di ${lokasinya}`)     
+  }, 1000) 
+ addIkan(m.sender, ikanmu) 
+   addAyam(m.sender, ayam) 
+   addKelinci(m.sender, kelinci)
+   addDomba(m.sender, domba)
+   addSapi(m.sender, sapi)
+  addGajah(m.sender, gajah)
+ kurangDarah(m.sender, 10)
+ }
+ break        case 'tourl': {
                 m.reply(mess.wait)
 		let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./lib/uploader')
                 let media = await hisoka.downloadAndSaveMediaMessage(quoted)
