@@ -1466,7 +1466,6 @@ break
                 await fs.unlinkSync(media)
             }
             break
-
 	case 'berburu':{
 if (q.includes('--help')) return m.reply(examkosong) 
  //Peringatan!!!!, ini buatan rifza. jangan claim punya lu:)
@@ -1543,7 +1542,8 @@ if (q.includes('--help')) return m.reply(examkosong)
   addGajah(m.sender, gajah)
  kurangDarah(m.sender, 10)
  }
- break        case 'tourl': {
+break
+        case 'tourl': {
                 m.reply(mess.wait)
 		let { UploadFileUgu, webp2mp4File, TelegraPh } = require('./lib/uploader')
                 let media = await hisoka.downloadAndSaveMediaMessage(quoted)
